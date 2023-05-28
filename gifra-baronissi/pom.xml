@@ -1,8 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>it.gioventu.francescana</groupId>
-  <artifactId>gifra-baronissi</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>GifraBaronissi</name>
-  <description>web app Gifra Baronissi</description>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>it.gioventu.francescana</groupId>
+	<artifactId>gifra-baronissi</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>GifraBaronissi</name>
+	<description>web app Gifra Baronissi</description>
+
+	<packaging>pom</packaging>
+
+	<properties>
+		<version.compiler.plugin>3.5.1</version.compiler.plugin>
+	</properties>
+
+	<modules>
+		<module>gifra-baronissi-gui</module>
+		<module>gifra-baronissi-backend</module>
+	</modules>
 </project>
